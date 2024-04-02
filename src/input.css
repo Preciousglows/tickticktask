@@ -4,5 +4,9 @@
 
 
 .tasks{
-    @apply bg-white hover:cursor-pointer hover:bg-gray-100  text-pink-500 text-center font-semibold shadow-md px-6 rounded-md py-2;
+    @apply bg-white relative flex items-center justify-between  gap-5 hover:cursor-pointer hover:bg-gray-100  text-pink-500 text-center font-semibold shadow-md px-6 rounded-md py-6;
+}
+
+.modal-style{
+    @apply absolute bg-gray-200  gap-3 flex top-0  z-[1] left-0 overflow-auto;
 }
